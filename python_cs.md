@@ -38,9 +38,30 @@ name = input("What's your name? ").strip().title()
 ```
 
 ### integers
+ganze zahlen, auch negativ
 ```go
 x = int(input("What's x? "))
 y = int(input("What's y? "))
 print(x + y)
+```
+
+### float
+Dezimalzahlen, auch negati
+```go
+x = float(input("What's x? "))
+z = round(x + y)
+z = x / y
+z = round(x / y, 2)
+
+#formatt the float to xx.xx
+print(f"{z:.2f}")
+```
+
+### funtions
+```go
+#Define your own funtion
+def hello(name):
+  text = "Hello, " + name
+  print(text)
 ```
 
