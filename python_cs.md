@@ -57,11 +57,21 @@ z = round(x / y, 2)
 print(f"{z:.2f}")
 ```
 
-### funtions
+### functions
 ```go
 #Define your own funtion
 def hello(name):
   text = "Hello, " + name
   print(text)
+  
+#Defin function with return value
+def get_name():
+  name = input("What is your name?")
+  return name
+  
+#Call funtion
+hello("Benni")
+get_name()
+
 ```
 
