@@ -72,6 +72,24 @@ def get_name():
 #Call funtion
 hello("Benni")
 get_name()
+```
+### if, else, elif
+```go
+if x < y:
+    print("x is less than y")
+elif x > y:
+    print("x is greater than y")
+else:
+    print("x is equal to y")
+```
+### or, and
+```go
+if x < y or x > y: ...
+if x != y: ...
+if score >= 90 and score <= 100: ...
+```
+### Modulo
+```go
 
 ```
 
